@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringbootApplication {
-
  
   public static void main(String[] args) throws JsonProcessingException {
     SpringApplication.run(SpringbootApplication.class, args);
