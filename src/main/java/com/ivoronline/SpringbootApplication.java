@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringbootApplication {
-
  
   public static void main(String[] args) throws JsonProcessingException {
     SpringApplication.run(SpringbootApplication.class, args);
@@ -16,7 +15,7 @@ public class SpringbootApplication {
     Person person      = new Person();
            person.name = "John";
            person.age  = 20;
-           
+
     //PRINT OBJECT
     ObjectMapper objectMapper = new ObjectMapper();
     String       personJson   = objectMapper.writeValueAsString(person);
@@ -25,3 +24,5 @@ public class SpringbootApplication {
   }
   
 }
+
+
