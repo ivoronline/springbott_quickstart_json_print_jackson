@@ -16,7 +16,7 @@ public class SpringbootApplication {
     Person person      = new Person();
            person.name = "John";
            person.age  = 20;
-           
+
     //PRINT OBJECT
     ObjectMapper objectMapper = new ObjectMapper();
     String       personJson   = objectMapper.writeValueAsString(person);
